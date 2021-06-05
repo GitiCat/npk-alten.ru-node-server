@@ -1,0 +1,22 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "ES6",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
