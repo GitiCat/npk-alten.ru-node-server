@@ -8,6 +8,7 @@ import { json, urlencoded } from 'body-parser'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import ExpressServer from './app/express-server'
+import "./database/models/index.ts"
 
 const host: string = String(process.env.SERVER_HOST),
       port: number = Number(process.env.SERVER_PORT)
